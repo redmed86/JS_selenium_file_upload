@@ -1,0 +1,21 @@
+{
+  "name": "mocha-webdriverio-file-upload",
+  "version": "0.0.1",
+  "description": "Parallel tests with Mocha and Webdriverio  =============",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redmed86/JS_selenium_file_upload.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "npm": "^6.4.1",
+    "wdio-mocha-framework": "^0.3.10",
+    "wdio-sauce-service": "~0.1",
+    "webdriverio": "*"
+  }
+}
